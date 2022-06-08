@@ -1,0 +1,42 @@
+body {
+    background-image: url('./images/dark-rain.jpg');
+    color: white;
+    height: 100vh; /* vh = View Height */
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
+/* Search Input */
+.searchContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.searchContainer input {
+    width: 60%;
+    height: 40px;
+}
+.searchContainer button {
+    width: 100px;
+    background-color: lightblue;
+    border: none;
+}
+
+/* Display Data */
+.mainContainer {
+    text-align: center;
+}
+.cityName {
+    font-size: 3em;
+    line-height: 0;
+}
+.bigFontSize {
+    font-size: 5em;
+    line-height: 0;
+}
+.midFontSize {
+    font-size: 2em;
+    line-height: 0.5;
+}
